@@ -33,7 +33,7 @@ a{
     font-family: fuente_enlaces;
 }
 
-hr{
+#barra1{
     clear: both;
     width: 700px;
     position: relative;
@@ -87,11 +87,12 @@ hr{
     background-color: #8b897a;
     border: 2px solid #8b897a;
     width: 265px;
-    height: 580px;
+    height: 650px;
     position: relative;
     left: 450px;
-    bottom: 640px;
+    bottom: 570px;
     border-radius: 10px;
+    
 }
 
 #tituloAside{
@@ -99,7 +100,7 @@ hr{
     font-family: fuente_enlaces;
     position: relative;
     left: 7px;
-    top: 10px;
+    font-size: 20px;
     
 }
 
@@ -108,4 +109,95 @@ hr{
     right: 12px;
     top: 160px;
 }
+
+#tiempo{
+    position: relative;
+    left: 10px;
+    width: 180px;
+    height: 390px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+    
+#facebook, #twitter, #vimeo, #flickr{
+    position: relative;
+    top: 415px;
+}
+
+#barra2{
+    clear: both;
+    width: 720px;
+    position: relative;
+    top: 510px;
+    right: 470px;
+}
+
+#top{
+    position: relative;
+    top: 501px;
+    right: 150px;
+}
+
+#footer1{
+    position: relative;
+    bottom: 550px;
+    width: 180px;
+    
+}
+
+#parrafoHola, #parrafoHora{
+    font-size: 12px;
+}
+
+#titulo3, #titulo4, #titulo5{
+    font-family: fuente_enlaces;
+    font-size: 15px;
+}
+
+#footer2{
+    position: relative;
+    bottom: 550px;
+    left: 200px;
+    bottom: 642px;
+}
+
+#barcelona1, #barcelona2, #barcelona3, #barcelona4{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    
+}
+
+#footer3{
+    position: relative;
+    bottom: 550px;
+    left: 450px;
+    bottom: 749px;
+}
+#external_link1, #external_link2, #external_link3{
+    padding: 7px;
+}
+
+#parrafo10, #parrafo11, #parrafo12{
+    position: relative;
+    left: 20px;
+    font-size: 12px;
+    bottom: 87px;
+}
+
+#external_link4, #external_link5, #external_link6{
+    padding: 7px;
+    position: relative;
+    left: 155px;
+    bottom: 171px;
+}
+
+#parrafo13, #parrafo14, #parrafo15{
+    position: relative;
+    left: 180px;
+    font-size: 12px;
+    bottom: 258px;
+}
+
 
