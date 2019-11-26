@@ -1,0 +1,115 @@
+body{
+    position: absolute;
+    left: 10px;
+}
+#logo{
+    float: left;
+    width: 75px;
+    height: 65px;
+}
+@font-face {
+  font-family: fuente_titulo;
+  src: url(../fuentes/ballpark.woff);
+}
+
+@font-face {
+  font-family: fuente_enlaces;
+  src: url(../fuentes/dayrom.woff);
+}
+
+#titulo{
+    font-family: fuente_titulo;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    position: relative;
+    left: 300px;
+    font-family: fuente_enlaces;
+}
+
+hr{
+    clear: both;
+    width: 700px;
+    position: relative;
+    top: 6px;
+}
+
+#barcelona{
+    position: relative;
+    top: 10px;
+    width: 710px;
+    height: 250px;
+    border: 1px solid grey;
+     border-radius: 10px;
+    box-shadow: 1px 1px grey;
+    
+    border-left-style: none;
+    border-top-style: none;   
+}
+
+#piefoto{
+    background-color: black;
+    color: white;
+    opacity: 0.75;
+    position: relative;
+    bottom: 40px;
+    height: 35px;
+    border-radius: 0px 0px 10px 10px;
+    
+}
+
+#pin{
+    float: left;
+}
+
+#titulo2{
+    position: relative;
+    font-family: fuente_enlaces;
+    left: 60px;
+    bottom: 57px;
+}
+
+#parrafo1, #parrafo2, #parrafo3, #parrafo4{
+    width: 420px;
+    text-align: justify;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+#fondoAside{
+    background-color: #8b897a;
+    border: 2px solid #8b897a;
+    width: 265px;
+    height: 580px;
+    position: relative;
+    left: 450px;
+    bottom: 640px;
+    border-radius: 10px;
+}
+
+#tituloAside{
+    color: white;
+    font-family: fuente_enlaces;
+    position: relative;
+    left: 7px;
+    top: 10px;
+    
+}
+
+#arrow{
+    position: relative;
+    right: 12px;
+    top: 160px;
+}
+
+#tiempo{
+   
+    
+}
