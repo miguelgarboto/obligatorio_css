@@ -1,6 +1,7 @@
 body{
     position: absolute;
     left: 10px;
+    background-color: #bdf0de;
 }
 #logo{
     float: left;
@@ -38,6 +39,8 @@ a{
     width: 700px;
     position: relative;
     top: 6px;
+    border: 1px dashed #4d749d;
+  
 }
 
 #barcelona{
@@ -116,13 +119,18 @@ a{
     left: 10px;
     width: 180px;
     height: 390px;
-    border: 1px solid white;
-    border-radius: 10px;
+   
+}
+
+#widget{
+    position: relative;
+    left: 4%;
+    bottom: 58%;
 }
     
 #facebook, #twitter, #vimeo, #flickr{
     position: relative;
-    top: 415px;
+    top: 440px;
 }
 
 #barra2{
@@ -131,6 +139,7 @@ a{
     position: relative;
     top: 510px;
     right: 470px;
+     border: 1px dashed #4d749d;
 }
 
 #top{
